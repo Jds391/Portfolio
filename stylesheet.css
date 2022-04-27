@@ -1,19 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Lobster+Two:ital,wght@1,700&family=Playfair+Display+SC:ital@0;1&family=Tapestry&display=swap');
+
 
 
 img {
-    width: 15%;
+    width: 20%;
     height: 15rem;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 30px;
+    float: right;
+    margin: 10px;
     
 }
 
-p {
-    font-family: 'Cookie';
-    font-size: x-large;
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(77, 74, 74) 0%,
+        rgb(77, 74, 74) 50%,
+        rgb(202, 137, 16) 0%,
+        rgb(202, 137, 16) 50%
+    );
+    color: white;
+}
+
+.main {
+    font-family: Playfair Display SC;
+    font-size: 40px;
+}
+
+div {
+    border-style: solid;
+    width: 500px;
+    height: 800px;
+    padding: 15px;
+    margin: 10px;
+    
 }
 
 
+#title {
+    color: white;
+    font-size: 50px;
+    border: hidden;
+    padding-top: 50px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
 
 
+@media screen and (min-width: 768px) {
+}
