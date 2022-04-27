@@ -3,6 +3,18 @@
 
 
 
+.nav {
+    float: right;
+}
+
+.topnav a {
+    float: right;
+    padding: 15px;
+    color: black;
+}
+
+
+
 img {
     width: 20%;
     height: 15rem;
@@ -23,6 +35,7 @@ body {
         rgb(202, 137, 16) 50%
     );
     color: white;
+
 }
 
 .main {
@@ -30,12 +43,14 @@ body {
     font-size: 40px;
 }
 
-div {
+.history, .journey {
     border-style: solid;
     width: 500px;
-    height: 800px;
+    height: 600px;
     padding: 15px;
     margin: 10px;
+    box-shadow: 0 0 30px gray;
+    border: hidden;
     
 }
 
@@ -49,8 +64,24 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    text-shadow: 3px 3px 5px rgb(202, 137, 16);
+    
 }
+
+
+
+.journey {
+    width: 500px;
+    height: 300px;
+}
+
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
